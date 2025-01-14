@@ -38,7 +38,7 @@ pip install flash-attn --no-build-isolation
 ## Models
 |  Model   | Download Link  |
 |  ----  | ----  |
-| MLP Connector | [projector](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link) |
+| MLP Connector |  [projector](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link)  |
 | ChartCoder  | 🤗 [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
 
 The MLP Connector is our pre-trained MLP weights, which you could directly use for SFT.
