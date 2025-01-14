@@ -14,9 +14,7 @@ This repository contains the code to train and evaluate ChartCoder.
 
 ## Overview
 
-<center>
-  <img src="fig/overview.png" alt="overview" width="500">
-</center>
+![main](fig/main.png)
 
 ## Environment Install
 1. Clone this repo
@@ -53,6 +51,7 @@ The MLP Connector is our pre-trained MLP weights, which you could directly use f
 
 ## Train
 The whole training process consists of two stages. To train the ChartCoder, ```siglip-so400m-patch14-384``` and ```deepseek-coder-6.7b-instruct``` should be downloaded first.
+
 For **Pre-training**, run
 ```
 bash scripts/train/pretrain_siglip.sh
