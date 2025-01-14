@@ -39,7 +39,7 @@ pip install flash-attn --no-build-isolation
 |  Model   | Download Link  |
 |  ----  | ----  |
 | MLP Connector |  [projector](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link)  |
-| ChartCoder  | [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
+| ChartCoder  |  [ChartCoder](https://huggingface.co/xxxllz/ChartCoder)  |
 
 The MLP Connector is our pre-trained MLP weights, which you could directly use for SFT.
 
@@ -63,9 +63,10 @@ bash scripts/train/finetune_siglip_a4.sh
 Please change the model path to your local path. See the corresponding ```.sh ``` file for details. We also provide other training scripts, such as using CLIP and multiple machines. See ``` scripts/train ``` for further information.
 
 ## Inference
-Please see ```inference.py``` for details
+Please see ```inference.py``` for details.
 
 ## Results
+Please refer to our paper for detailed performance on ChartMimic, Plot2Code and ChartX benchmarks. Thanks for these contributions to the chart-to-code field.
 ![results](fig/results.png)
 
 ## Citation
