@@ -13,8 +13,8 @@ This repository contains the code to train and evaluate ChartCoder.
 </div>
 
 ## Overview
+![overview](fig/overview.png)
 
-<iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=fig/overview.pdf" width="100%" height="500px"></iframe>
 
 
 ## Usage
@@ -66,7 +66,7 @@ Please change the model path to your local path. See the corresponding ```.sh ``
 Please see ```inference.py``` for details
 
 ## Results
-![results](fig/results.pdf)
+![results](fig/results.png)
 
 ## Citation
 If you find this work useful, consider giving this repository a star ⭐️ and citing 📝 our paper as follows:
