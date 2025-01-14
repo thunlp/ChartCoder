@@ -13,13 +13,12 @@ This repository contains the code to train and evaluate ChartCoder.
 </div>
 
 ## Overview
-<div style="text-align: center;">
-  <img src="fig/overview.png" alt="overview" width="400">
-</div>
 
+<center>
+  <img src="fig/overview.png" alt="overview" width="500">
+</center>
 
-
-## Usage
+## Environment Install
 1. Clone this repo
 ```
 git clone https://github.com/thunlp/ChartCoder.git
