@@ -13,7 +13,7 @@ This repository contains the code to train and evaluate ChartCoder.
 </div>
 
 ## Overview
-![overview](fig/overview.png)
+<img src="fig/overview.png" alt="overview" width="500">
 
 
 
