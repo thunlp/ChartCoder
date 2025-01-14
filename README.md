@@ -39,14 +39,14 @@ pip install flash-attn --no-build-isolation
 |  Model   | Download Link  |
 |  ----  | ----  |
 | MLP Connector |  [projector](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link)  |
-| ChartCoder  | 🤗 [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
+| ChartCoder  | [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
 
 The MLP Connector is our pre-trained MLP weights, which you could directly use for SFT.
 
 ## Data
 |  Model   | Download Link  |
 |  ----  | ----  |
-|Chart2Code-160k  | 🤗 [Chart2Code-160k](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) TBD|
+|Chart2Code-160k  | [Chart2Code-160k](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) TBD|
 
 
 ## Train
