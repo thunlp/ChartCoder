@@ -13,7 +13,9 @@ This repository contains the code to train and evaluate ChartCoder.
 </div>
 
 ## Overview
-<img src="fig/overview.png" alt="overview" width="500">
+<div style="text-align: center;">
+  <img src="fig/overview.png" alt="overview" width="400">
+</div>
 
 
 
@@ -39,7 +41,7 @@ pip install flash-attn --no-build-isolation
 ## Models
 |  Model   | Download Link  |
 |  ----  | ----  |
-| MLP Connector | [weight](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link) |
+| MLP Connector | [projector](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link) |
 | ChartCoder  | 🤗 [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
 
 The MLP Connector is our pre-trained MLP weights, which you could directly use for SFT.
