@@ -12,6 +12,8 @@ Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Wanxiang Che, Zh
 This repository contains the code to train and evaluate ChartCoder.
 </div>
 
+## Overview
+![overview](fig/overiew.pdf)
 
 
 ## Usage
@@ -36,7 +38,9 @@ pip install flash-attn --no-build-isolation
 ## Models
 |  Model   | Download Link  |
 |  ----  | ----  |
+| MLP Connector | [weight](https://drive.google.com/file/d/1S_LwG65TIz_miW39rFPhuEAb5ClgopYi/view?usp=drive_link) |
 | ChartCoder  | 🤗 [ChartCoder](https://huggingface.co/xxxllz/ChartCoder) |
+The MLP Connector is our pre-trained MLP weights, which you could directly use for SFT.
 
 ## Data
 |  Model   | Download Link  |
@@ -45,15 +49,22 @@ pip install flash-attn --no-build-isolation
 
 
 ## Train
-Pretrain
+The whole training process consists of two stages. To train the ChartCoder, ```siglip-so400m-patch14-384``` and ```deepseek-coder-6.7b-instruct``` should be downloaded first.
+For **Pre-training**, run
 ```
 bash scripts/train/pretrain_siglip.sh
 ```
-SFT
+For **SFT**, run 
 ```
 bash scripts/train/finetune_siglip_a4.sh
 ```
 Please change the model path to your local path. See the corresponding ```.sh ``` file for details. We also provide other training scripts, such as using CLIP and multiple machines. See ``` scripts/train ``` for further information.
+
+## Inference
+Please see ```inference.py``` for details
+
+## Results
+![results](fig/results.pdf)
 
 ## Citation
 If you find this work useful, consider giving this repository a star ⭐️ and citing 📝 our paper as follows:
