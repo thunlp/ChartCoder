@@ -17,7 +17,7 @@ This repository contains the code to train and evaluate ChartCoder.
 ## Usage
 1. Clone this repo
 ```
-git clone https://github.com/xxlllz/ChartCoder.git
+git clone https://github.com/thunlp/ChartCoder.git
 ```
 2.  Create environment
 ```
