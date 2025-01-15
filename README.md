@@ -1,6 +1,6 @@
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 
-<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="[https://huggingface.co/xxxllz/ChartCoder](https://arxiv.org/abs/2501.06598)" target="_blank">📑 Paper </a>
+<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="https://arxiv.org/abs/2501.06598" target="_blank">📑 Paper </a>
 
 This repository contains the code to train and infer ChartCoder. 
 
