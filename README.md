@@ -60,7 +60,8 @@ For **SFT**, run
 ```
 bash scripts/train/finetune_siglip_a4.sh
 ```
-Please change the model path to your local path. See the corresponding ```.sh ``` file for details. We also provide other training scripts, such as using CLIP and multiple machines. See ``` scripts/train ``` for further information.
+Please change the model path to your local path. See the corresponding ```.sh ``` file for details. 
+We also provide other training scripts, such as using CLIP ```_clip``` and multiple machines ```_m```. See ``` scripts/train ``` for further information.
 
 ## Inference
 Please see ```inference.py``` for details.
