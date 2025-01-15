@@ -1,13 +1,10 @@
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 
-
-<div align="center">
 📑 [paper](https://arxiv.org/abs/2501.06598)
 
 Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun
 
 This repository contains the code to train and evaluate ChartCoder.
-</div>
 
 ## Overview
 
