@@ -6,9 +6,6 @@
 
 Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun
 
-\* Equal Contribution 
-† Corresponding Author
-
 This repository contains the code to train and evaluate ChartCoder.
 </div>
 
