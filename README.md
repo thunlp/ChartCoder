@@ -1,16 +1,14 @@
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 
-📑 [paper](https://arxiv.org/abs/2501.06598)
+<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="[https://huggingface.co/xxxllz/ChartCoder](https://arxiv.org/abs/2501.06598)" target="_blank">📑 Paper </a>
 
-Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun
-
-This repository contains the code to train and evaluate ChartCoder.
+This repository contains the code to train and infer ChartCoder. 
 
 ## Overview
 
 ![main](fig/main.png)
 
-## Environment Install
+## Installation
 1. Clone this repo
 ```
 git clone https://github.com/thunlp/ChartCoder.git
