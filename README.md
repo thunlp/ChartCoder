@@ -4,6 +4,10 @@
 
 This repository contains the code to train and infer ChartCoder. 
 
+## News
+
+[2025.1.16] We have updated our data generation code [data_generator](https://github.com/thunlp/ChartCoder/tree/main/data_generator), built on [Multi-modal-Self-instruct](https://github.com/zwq2018/Multi-modal-Self-instruct). Please follow their instructions and our code to generate the <chart, code> data pairs.
+
 ## Overview
 
 ![main](fig/main.png)
