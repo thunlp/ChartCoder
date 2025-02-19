@@ -45,7 +45,7 @@ The MLP Connector is our pre-trained MLP weights, which you could directly use f
 |  Dataset  | Download Link  |
 |  ----  | ----  |
 |Chart2Code-160k  | [HuggingFace](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) TBD |
-|Chart2Code-160k  | [MS](https://modelscope.cn/datasets/Noct25/Chart2Code-160k)|
+|Chart2Code-160k  | [ModelScope](https://modelscope.cn/datasets/Noct25/Chart2Code-160k)|
 
 ## Train
 The whole training process consists of two stages. To train the ChartCoder, ```siglip-so400m-patch14-384``` and ```deepseek-coder-6.7b-instruct``` should be downloaded first.
