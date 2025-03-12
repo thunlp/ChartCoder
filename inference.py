@@ -36,9 +36,9 @@ class ChartCoder:
         self.image_processor = image_processor
         self.IMAGE_TOKEN_INDEX = IMAGE_TOKEN_INDEX
 
-    def generate(self, conversation):
-        image = Image.open(conversation[0]['content'][1]['image_url']).convert('RGB')
-        prompt = self.system_message + f"### Instruction:\n{DEFAULT_IMAGE_TOKEN}\n{conversation[0]['content'][0]['text']}\n### Response:\n"
+    def generate(self, instruction, image_path):
+        image = Image.open(image_path).convert('RGB')
+        prompt = self.system_message + f"### Instruction:\n{DEFAULT_IMAGE_TOKEN}\n{instruction}\n### Response:\n"
         input_ids = tokenizer_image_token(prompt, self.tokenizer, self.IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
         image_tensor = process_images([image], self.image_processor, self.model.config)[0]
 
