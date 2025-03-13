@@ -1,10 +1,12 @@
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 
-<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset(HuggingFace)</a>(TBD) | <a href="https://modelscope.cn/datasets/Noct25/Chart2Code-160k" target="_blank">🤖 Dataset(ModelScope)</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="https://arxiv.org/abs/2501.06598" target="_blank">📑 Paper </a>
+<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset(HuggingFace)</a> | <a href="https://modelscope.cn/datasets/Noct25/Chart2Code-160k" target="_blank">🤖 Dataset(ModelScope)</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="https://arxiv.org/abs/2501.06598" target="_blank">📑 Paper </a>
 
 This repository contains the code to train and infer ChartCoder. 
 
 ## News
+
+[2025.3.13] We have upload our dataset [Chart2Code-160k(HF)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) to Huggingface.
 
 [2025.2.19] We have released our dataset [Chart2Code-160k](https://modelscope.cn/datasets/Noct25/Chart2Code-160k). Now that it is updated on ModelScope, we will create a Huggingface repo soon.
 
@@ -44,7 +46,7 @@ The MLP Connector is our pre-trained MLP weights, which you could directly use f
 ## Data
 |  Dataset  | Download Link  |
 |  ----  | ----  |
-|Chart2Code-160k  | [HuggingFace](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) TBD |
+|Chart2Code-160k  | [HuggingFace](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) |
 |Chart2Code-160k  | [ModelScope](https://modelscope.cn/datasets/Noct25/Chart2Code-160k)|
 
 ## Train
