@@ -23,7 +23,7 @@ git clone https://github.com/thunlp/ChartCoder.git
 ```
 2.  Create environment
 ```
-cd MMedAgent
+cd ChartCoder
 conda create -n chartcoder python=3.10 -y
 conda activate chartcoder
 pip install --upgrade pip  # enable PEP 660 support
@@ -69,6 +69,11 @@ Please see ```inference.py``` for details.
 ## Results
 Please refer to our paper for detailed performance on ChartMimic, Plot2Code and ChartX benchmarks. Thanks for these contributions to the chart-to-code field.
 ![results](fig/results.png)
+
+## Contact
+
+For any questions, you can contact [2429527z@gmail.com](mailto:2429527z@gmail.com).
+
 
 ## Citation
 If you find this work useful, consider giving this repository a star ⭐️ and citing 📝 our paper as follows:
