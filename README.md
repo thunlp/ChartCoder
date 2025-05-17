@@ -1,16 +1,19 @@
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 
-<a href="https://huggingface.co/datasets/xxxllz/Chart2Code-160k" target="_blank">🤗 Dataset(HuggingFace)</a> | <a href="https://modelscope.cn/datasets/Noct25/Chart2Code-160k" target="_blank">🤖 Dataset(ModelScope)</a> | <a href="https://huggingface.co/xxxllz/ChartCoder" target="_blank">🤗 Model</a> | <a href="https://arxiv.org/abs/2501.06598" target="_blank">📑 Paper </a>
+[![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k)  [![🤖 Dataset (ModelScope)](https://img.shields.io/badge/Dataset-ModelScope-00A0E9.svg)](https://modelscope.cn/datasets/Noct25/Chart2Code-160k)  [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/xxxllz/ChartCoder) [![📑 Paper (arXiv:2501.06598)](https://img.shields.io/badge/arXiv-2501.06598-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.06598)
 
-This repository contains the code to train and infer ChartCoder. 
+This repository is the official implementation of [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
+](https://arxiv.org/abs/2501.06598). 
 
 ## News
 
-[2025.3.13] We have upload our dataset [Chart2Code-160k(HF)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) to Huggingface.
+**[2025.5.17]** ChartCoder has been accepted by **ACL 2025 Main**.
 
-[2025.2.19] We have released our dataset [Chart2Code-160k](https://modelscope.cn/datasets/Noct25/Chart2Code-160k). Now that it is updated on ModelScope, we will create a Huggingface repo soon.
+**[2025.3.13]** We have upload our dataset [Chart2Code-160k(HF)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) to Huggingface.
 
-[2025.1.16] We have updated our data generation code [data_generator](https://github.com/thunlp/ChartCoder/tree/main/data_generator), built on [Multi-modal-Self-instruct](https://github.com/zwq2018/Multi-modal-Self-instruct). Please follow their instructions and our code to generate the <chart, code> data pairs.
+**[2025.2.19]** We have released our dataset [Chart2Code-160k](https://modelscope.cn/datasets/Noct25/Chart2Code-160k) to ModelScope.
+
+**[2025.1.16]** We have updated our data generation code [data_generator](https://github.com/thunlp/ChartCoder/tree/main/data_generator), built on [Multi-modal-Self-instruct](https://github.com/zwq2018/Multi-modal-Self-instruct). Please follow their instructions and our code to generate the <chart, code> data pairs.
 
 ## Overview
 
