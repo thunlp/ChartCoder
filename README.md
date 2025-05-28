@@ -93,4 +93,4 @@ If you find this work useful, consider giving this repository a star ⭐️ and 
 ```
 
 ## Acknowledgement
-The code is based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT). Thanks for these great works and open sourcing!
+The code is based on the [LLaVA-NeXT](https://github.com/SamuelSchmidgall/AgentLaboratory). Thanks for these great works and open sourcing!
