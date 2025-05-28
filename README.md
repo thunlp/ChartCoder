@@ -5,6 +5,8 @@
 This repository is the official implementation of [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 ](https://arxiv.org/abs/2501.06598). 
 
+Our model is tested on the new version of Chartmimic, which contains 600 samples.
+
 ## News
 
 **[2025.5.17]** ChartCoder has been accepted by **ACL 2025 Main**.
