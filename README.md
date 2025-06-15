@@ -1,9 +1,13 @@
-# ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation (ACL2025 Main)
+# ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation (ACL 2025 Main)
 
 [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k)  [![🤖 Dataset (ModelScope)](https://img.shields.io/badge/Dataset-ModelScope-00A0E9.svg)](https://modelscope.cn/datasets/Noct25/Chart2Code-160k)  [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/xxxllz/ChartCoder) [![📑 Paper (arXiv:2501.06598)](https://img.shields.io/badge/arXiv-2501.06598-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.06598)
 
 This repository is the official implementation of [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 ](https://arxiv.org/abs/2501.06598). 
+
+> ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
+>
+> Xuanle Zhao, Xianzhen Luo, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun
 
 Our model is tested on the new version of Chartmimic, which contains 600 samples.
 
