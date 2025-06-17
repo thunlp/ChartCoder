@@ -9,7 +9,11 @@ This repository is the official implementation of [ChartCoder: Advancing Multimo
 >
 > Xuanle Zhao, Xianzhen Luo, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun
 
-Our model is tested on the new version of Chartmimic, which contains 600 samples.
+## Notes
+1. ChartCoder is tested on the new version of Chartmimic, which contains 600 samples. The iclr version of ChartMimic is https://huggingface.co/datasets/ChartMimic/ChartMimic/blob/main/dataset-iclr.tar.gz.
+2. The code we utilize for evaluating is the Supplementary Material of https://openreview.net/forum?id=sGpCzsfd1K.
+
+All the results (including the baseline and our models) in the Table 3 in the paper is evaluated based on above two settings. When conducting the assessment in other settings, there may be performance differences. If you want to replicate the performance in the paper, it is recommended to achieve it under the aforementioned settings.
 
 ## News
 
