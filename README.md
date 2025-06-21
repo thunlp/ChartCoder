@@ -7,7 +7,7 @@ This repository is the official implementation of [ChartCoder: Advancing Multimo
 
 > ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 >
-> Xuanle Zhao, Xianzhen Luo, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun
+> Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Zhiyuan Liu, Maosong Sun
 
 ## Notes
 1. ChartCoder is tested on the new version of Chartmimic, which contains 600 samples. The iclr version of ChartMimic is https://huggingface.co/datasets/ChartMimic/ChartMimic/blob/main/dataset-iclr.tar.gz.
