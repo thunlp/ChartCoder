@@ -10,7 +10,7 @@ This repository is the official implementation of [ChartCoder: Advancing Multimo
 > Xuanle Zhao*, Xianzhen Luo*, Qi Shi†, Chi Chen†, Shuo Wang, Zhiyuan Liu, Maosong Sun
 
 ## Notes
-*We find that our evaluation utilized the 'no_filter' option previously, which led to performance discrepancies. Upon re-evaluating with the default 'code_pass' setting, we observe the low-level score change to **72.5**, while the high-level score remains unchanged.*
+*We find that our evaluation on ChartMimic utilized the 'no_filter' option previously, which led to performance discrepancies. Upon re-evaluating with the default 'code_pass' setting, we observe the low-level score change to **72.5**, while the high-level score remains unchanged.*
 
 More information about evaluation
 
