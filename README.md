@@ -15,7 +15,7 @@ This repository is the official implementation of [ChartCoder: Advancing Multimo
 
 All the results (including the baseline and our models) in Table 3 in the paper are evaluated based on the above two settings. When conducting the assessment in other settings, there may be performance differences. If you want to replicate the performance in the paper, it is recommended to achieve it under the aforementioned settings.
 
-We find that our evaluation utilized the 'no_filter' option previously, which led to performance discrepancies. Upon re-evaluating with the default 'code_pass' setting, we observe the low-level score change to 72.5, while the high-level score remains unchanged.
+*We find that our evaluation utilized the 'no_filter' option previously, which led to performance discrepancies. Upon re-evaluating with the default 'code_pass' setting, we observe the low-level score change to **72.5**, while the high-level score remains unchanged.*
 
 ## News
 
