@@ -21,6 +21,8 @@ All the results (including the baseline and our models) in Table 3 in the paper 
 
 ## News
 
+**[2025.11.11]** Sorry that we find some code in Chart2Code-160k contain errors. We have fixed this in the [chart2code_fixed.parquet](https://huggingface.co/datasets/DocTron-Hub/VinciCoder-1.6M-SFT/blob/main/chart2code_1.parquet).
+
 **[2025.5.17]** ChartCoder has been accepted by **ACL 2025 Main**.
 
 **[2025.3.13]** We have upload our dataset [Chart2Code-160k(HF)](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) to Huggingface.
@@ -95,14 +97,11 @@ For any questions, you can contact [2429527z@gmail.com](mailto:2429527z@gmail.co
 ## Citation
 If you find this work useful, consider giving this repository a star ⭐️ and citing 📝 our paper as follows:
 ```
-@misc{zhao2025chartcoderadvancingmultimodallarge,
-      title={ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation}, 
-      author={Xuanle Zhao and Xianzhen Luo and Qi Shi and Chi Chen and Shuo Wang and Wanxiang Che and Zhiyuan Liu and Maosong Sun},
-      year={2025},
-      eprint={2501.06598},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2501.06598}, 
+@article{zhao2025chartcoder,
+  title={Chartcoder: Advancing multimodal large language model for chart-to-code generation},
+  author={Zhao, Xuanle and Luo, Xianzhen and Shi, Qi and Chen, Chi and Wang, Shuo and Liu, Zhiyuan and Sun, Maosong},
+  journal={arXiv preprint arXiv:2501.06598},
+  year={2025}
 }
 ```
 
