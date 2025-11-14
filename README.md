@@ -21,7 +21,7 @@ All the results (including the baseline and our models) in Table 3 in the paper 
 
 ## News
 
-**[2025.11.11]** Sorry that we find some code in Chart2Code-160k contain errors. We have fixed this in the [chart2code_fixed.parquet](https://huggingface.co/datasets/DocTron-Hub/VinciCoder-1.6M-SFT/blob/main/chart2code_1.parquet).
+**[2025.11.11]** Sorry that we find some code in Chart2Code-160k contain errors. We have fixed this in the [huggingface](https://huggingface.co/datasets/DocTron-Hub/VinciCoder-1.6M-SFT/blob/main/chart2code_1.parquet). This parquet file contains Chart2Code-160k direct generation data without bugs and issues. If you want to utilize the SoT data, please follow the corresponding json file in [huggingface](https://huggingface.co/datasets/xxxllz/Chart2Code-160k/blob/main/json.tar.gz).
 
 **[2025.5.17]** ChartCoder has been accepted by **ACL 2025 Main**.
 
