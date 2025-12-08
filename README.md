@@ -17,11 +17,11 @@ More information about evaluation
 1. ChartCoder is tested on the new version of Chartmimic, which contains 600 samples. The iclr version of ChartMimic is https://huggingface.co/datasets/ChartMimic/ChartMimic/blob/main/dataset-iclr.tar.gz.
 2. The code we utilize for evaluation is the Supplementary Material of https://openreview.net/forum?id=sGpCzsfd1K.
 
-All the results (including the baseline and our models) in Table 3 in the paper are evaluated based on the above two settings. When conducting the assessment in other settings, there may be performance differences. If you want to replicate the performance in the paper, it is recommended to achieve it under the aforementioned settings.
+All the results (including the baseline and our models) in Table 3 in the paper are evaluated based on the above two settings. When conducting assessments in other settings, performance differences may occur. If you want to reproduce the performance in the paper, it is recommended that you do it under the aforementioned settings.
 
 ## News
 
-**[2025.11.11]** Sorry that we find some code in Chart2Code-160k contain errors. We have fixed this in the [huggingface](https://huggingface.co/datasets/DocTron-Hub/VinciCoder-1.6M-SFT/blob/main/chart2code_1.parquet). This parquet file contains Chart2Code-160k direct generation data without bugs and issues. If you want to utilize the SoT data, please follow the corresponding json file in [huggingface](https://huggingface.co/datasets/xxxllz/Chart2Code-160k/blob/main/json.tar.gz).
+**[2025.11.11]** Sorry that we find some code in Chart2Code-160k contain errors. We have fixed this in the [VinciCoder-1.6M-SFT(Chart2Code)](https://huggingface.co/datasets/DocTron-Hub/VinciCoder-1.6M-SFT/blob/main/chart2code_1.parquet). This parquet file contains Chart2Code-160k direct generation data without bugs and issues. If you want to utilize the SoT data, please follow the corresponding JSON file in [Chart2Code-160k](https://huggingface.co/datasets/xxxllz/Chart2Code-160k/blob/main/json.tar.gz). Also, welcome to follow [VinciCoder](https://github.com/DocTron-hub/VinciCoder).
 
 **[2025.5.17]** ChartCoder has been accepted by **ACL 2025 Main**.
 
